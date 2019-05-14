@@ -37,6 +37,7 @@ const (
 	PhaseDeployed string = "Deployed"
 )
 
+// +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // Component is the Schema for the components API.

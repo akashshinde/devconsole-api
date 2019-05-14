@@ -73,6 +73,7 @@ type DetectedBuildType struct {
 	DetectedFiles []string `json:"detectedFiles,omitempty"`
 }
 
+// +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // GitSourceAnalysis is the Schema for the gitsourceanalyses API

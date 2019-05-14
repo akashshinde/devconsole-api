@@ -81,6 +81,7 @@ type Connection struct {
 
 // ConnectionState is the result of the attempt to reach a GitSource.
 type ConnectionState string
+
 // ConnectionFailureReason represents the reason why the attempt to reach a GitSource failed
 type ConnectionFailureReason string
 
@@ -101,6 +102,7 @@ const (
 	ConnectionInternalFailure ConnectionFailureReason = "InternalFailure"
 )
 
+// +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // GitSource is the Schema for the gitsources API
