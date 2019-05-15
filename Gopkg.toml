@@ -58,4 +58,3 @@ required = [
   [[prune.project]]
     name = "k8s.io/gengo"
     non-go = false
-
